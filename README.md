@@ -8,6 +8,8 @@ Este proyecto contiene ejemplos de scripts para realizar pruebas de carga y rend
 - `print.py`: Ejemplo de impresión de información detallada de las respuestas HTTP.
 - `locustfile.py`: Ejemplo básico de pruebas de carga sobre demoqa.com.
 - `token_1.py`: Ejemplo de autenticación y obtención de token mediante una petición POST a la API de reqres.in. El script realiza una solicitud de login, almacena el token recibido y muestra la respuesta y el método utilizado.
+- `token_2.py`: Ejemplo de autenticación con token Bearer. Realiza una petición de login para obtener un token y luego utiliza ese token en el encabezado Authorization para acceder a endpoints protegidos, mostrando el flujo completo de autenticación y uso de token.
+- `carga_usuarios.py`: Ejemplo avanzado de prueba de carga con Locust utilizando una forma de carga personalizada (CustomLoadTestShape) y tareas agrupadas. Permite simular diferentes etapas de usuarios y tasas de aparición para pruebas más realistas.
 
 ## Requisitos
 
